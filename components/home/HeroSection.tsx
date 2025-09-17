@@ -11,7 +11,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ setCurrentPage }) => {
     <div className="relative h-screen bg-primary text-white flex items-center justify-center overflow-hidden">
       {/* Background Image with Ken Burns Effect */}
       <picture className="absolute inset-0">
-        <source srcSet="https://picsum.photos/seed/mining/1920/1080.webp" type="image/webp" />
+        <source srcSet="https://i.ibb.co/SwJwDkpR/IMG-20180924-162057.jpg" type="image/webp" />
         <img
           src="https://picsum.photos/seed/mining/1920/1080"
           alt=""
